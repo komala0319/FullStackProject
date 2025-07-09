@@ -10,7 +10,7 @@ function App() {
       <Route path="/" element ={<Navigate to="/Login"/>} />
       <Route path="/Register" element ={<Register/>} />
       <Route path="/Login" element ={<Login/>} />
-      {/* <Route path="/Success" element ={<Success/>} /> */}
+      <Route path="/Success" element ={<Success/>} />
     </Routes>
     </BrowserRouter>
       
