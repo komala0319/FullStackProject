@@ -30,8 +30,8 @@ export default function Login(){
             </form>
             <div style={{marginTop:'20px'}}>
             <p>Don't Have an Account?</p>
-             <Link to="/Register"></Link>
-             <button style={{padding:'10px,20px'}}>Go to Register</button>
+             <Link to="/Register">
+             <button style={{padding:'10px,20px'}}>Go to Register</button></Link>
             </div>
         </div>
     )
